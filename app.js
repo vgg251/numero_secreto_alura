@@ -1,5 +1,5 @@
 alert('Bem vindo!');
-let NumeroSecreto= parseInt(Math.random()*(mutiplicador=500)+1);
+let NumeroSecreto= parseInt(Math.random()*(mutiplicador=100)+1);
 console.log(NumeroSecreto);
 let chute;
 let tentativa=1;
