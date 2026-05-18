@@ -18,4 +18,4 @@ tentativa++;
 
 let PalavraTentativa= tentativa>1? 'tentativas' : 'tentativa';
 alert(`Parabéns! você acertou com ${tentativa} ${PalavraTentativa}, o número é ${NumeroSecreto}`);
-
+alert('oi')
