@@ -6,7 +6,7 @@ let tentativa=1;
 
 while (chute!=NumeroSecreto) {
 chute=prompt(`Escolha um número entre 1 e ${mutiplicador}`);
-if (chute===NumeroSecreto) {} else {
+if (chute===NumeroSecreto) {break;} else {
 if (chute>NumeroSecreto) {
 alert(`O número é menor que ${chute}`);} 
 else {
